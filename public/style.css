@@ -1,3 +1,39 @@
+.header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70px;
+  background: #333; }
+  .header-left section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 120rem;
+    color: #fff; }
+    .header-left section nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      margin-left: 3rem; }
+      .header-left section nav a {
+        padding: 0 1.5rem;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-decoration: none; }
+        .header-left section nav a.active {
+          background: #000; }
 .welcome {
   font-size: 20px;
   color: #333; }

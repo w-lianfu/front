@@ -11,7 +11,7 @@ import './container/scss/common.scss'
 ReactDOM.render(
   <Router>
     <div>
-      <Route exact path='/' component={Home} />
+      <Route path='/' component={Home} />
       <Route path='/my' component={My} />
     </div>
   </Router>,

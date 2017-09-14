@@ -1,0 +1,33 @@
+@import '../scss/color.scss';
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  background: $c333;
+  
+  section {
+    display: flex;
+    align-items: center;
+    width: 120rem;
+    color: $white;
+
+    nav {
+      display: flex;
+      height: 100%;
+      margin-left: 3rem;
+
+      a {
+        padding: 0 1.5rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+        &.active {
+          background: $black;
+        }
+      }
+    }
+  }
+}
